@@ -36,19 +36,24 @@
             <h2 class="site-description">{{ .Site.Params.sidebar.subtitle }}</h2>
         </div>
         <div>
-            <br><br>
+            <br>
             <p id="hitokoto">
-                <i><a href="#" id="hitokoto_text" font-style="italic">一言获取中...</a></i>>
+                <i><a href="" id="hitokoto_text" font-style="italic" onclicked="hitokotos()">一言获取中...</a></i>
             </p>
+            <br>
             <script>
+            function hitokotos(){
              fetch('https://v1.hitokoto.cn/?c=a&c=b&c=c&c=d&c=e&c=f&c=i&c=k&')
                 .then(response => response.json())
                 .then(data => {
                     const hitokoto = document.querySelector('#hitokoto_text')
                     hitokoto.href = `https://hitokoto.cn/?uuid=${data.uuid}`
+                    hitokoto.target ="_blank"
+                    hitokoto.onclicked="javascript:void"
                     hitokoto.innerText = data.hitokoto + "\n——《" + data.from + "》" + (data.from_who == null ? "" : data.from_who)    
                 })
-                .catch(console.error)
+                .catch(console.error)};
+             hitokotos();
             </script>
         </div>>
     </header>

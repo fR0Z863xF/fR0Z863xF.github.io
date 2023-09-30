@@ -3,8 +3,22 @@ module:
         extended: true
         min: "0.87.0"
 
-DefaultContentLanguage: zh-cn
+DefaultContentLanguage: en
 hasCJKLanguage: true
+
+languages:
+    en:
+        languageName: "English"
+        title: "Welcom to HiCommunity blog"
+        weight: 1
+        params:
+            description: "HiCom's blog."
+    # zh-cn:
+    #     languageName: "简体中文"
+    #    title: "Hi Community"
+    #    weight: 2
+    #    params:
+    #        description: "HiCom的个人博客"
 
 params:
     description: "HiCom's blog."
@@ -24,7 +38,7 @@ params:
 
     sidebar:
         compact: false
-        emoji:🔴
+        emoji: "🔴"
         subtitle:
         avatar:
             enabled: true
@@ -104,8 +118,8 @@ params:
             lang:
 
         gitalk:
-            owner:fR0Z863xF
-            admin:fR0Z863xF
+            owner: "fR0Z863xF"
+            admin: "fR0Z863xF"
             repo:
             clientID:
             clientSecret:
@@ -115,8 +129,6 @@ params:
             id:
 
     widgets:
-        # homepage: []
-        # page: []
         homepage:
             - type: search
             - type: archives

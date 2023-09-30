@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Hi Community</title>
-        <link>https://blog.hicom.icu/</link>
-        <description>Recent content on Hi Community</description>
+        <title>Pages on Hi Community</title>
+        <link>https://blog.hicom.icu/page/</link>
+        <description>Recent content in Pages on Hi Community</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 30 Sep 2023 10:06:24 +0800</lastBuildDate><atom:link href="https://blog.hicom.icu/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Hello_world</title>
-        <link>https://blog.hicom.icu/post/hello_world/hello_world/</link>
-        <pubDate>Sat, 30 Sep 2023 10:06:24 +0800</pubDate>
-        
-        <guid>https://blog.hicom.icu/post/hello_world/hello_world/</guid>
-        <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;Nothing here :D&lt;/em&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Sat, 30 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.hicom.icu/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>About</title>
         <link>https://blog.hicom.icu/page/about/</link>
         <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
