@@ -1,31 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://blog.hicom.icu/post/hello_world/hello_world/</loc>
-    <lastmod>2023-09-30T10:06:24+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.hicom.icu/</loc>
-    <lastmod>2023-09-30T10:06:24+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.hicom.icu/post/</loc>
-    <lastmod>2023-09-30T10:06:24+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.hicom.icu/page/about/</loc>
-    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.hicom.icu/page/</loc>
-    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.hicom.icu/page/archives/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.hicom.icu/categories/</loc>
-  </url><url>
-    <loc>https://blog.hicom.icu/page/links/</loc>
-  </url><url>
-    <loc>https://blog.hicom.icu/page/search/</loc>
-  </url><url>
-    <loc>https://blog.hicom.icu/tags/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://blog.hicom.icu/en/sitemap.xml</loc>
+    
+      <lastmod>2023-09-30T09:25:18+00:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://blog.hicom.icu/zh-cn/sitemap.xml</loc>
+    
+      <lastmod>2023-09-30T09:25:18+00:00</lastmod>
+    
+  </sitemap>
+  
+</sitemapindex>

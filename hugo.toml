@@ -5,6 +5,7 @@ theme = 'hugo-theme-stack-3.20.0'
 
 defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = true
+hasCJKLanguage = true
 
 [languages]
     [languages.en]
