@@ -9,9 +9,8 @@
             <section>
                 {{ if eq .params.site_pv true }}
                     <span id="busuanzi_container_value_site_pv">
-                        {{- with .params.page_pv_pre -}}
-                            {{ . | safeHTML }}
-                        {{ end }}
+                        
+                        <a class="fa fa-eye" style="color:#49b849">博客总浏览量</a>
                         <span id="busuanzi_value_site_pv"></span>
                     </span>
                 {{ end }}
@@ -34,9 +33,8 @@
         {{/*  page pv 只在 page 显示  */}}
         {{ if and (eq .params.page_pv true) (eq .bsz_type "page-reading") }}
             <span id="busuanzi_container_value_page_pv">
-                {{- with .params.page_pv_pre -}}
-                    {{ . | safeHTML }}
-                {{ end }}
+                
+                <a class="far fa-eye fa-fw" style="color:#49b849">本页总浏览量</a>
                 <span id="busuanzi_value_page_pv"></span>&nbsp;
                 {{- T "views" -}}
             </span>

@@ -24,4 +24,8 @@
     {{- /* busuanzi plugin */ -}}
     {{- partial "plugin/busuanzi.html" (dict "params" .Site.Params.busuanzi "bsz_type" "footer") -}}
     </section>
+    <section style="color:#41a041">
+    {{- /* busuanzi plugin */ -}}
+    {{- partial "plugin/busuanzi.html" (dict "params" .Site.Params.busuanzi "bsz_type" "page-reading" ) -}}
+    </section>
 </footer>
