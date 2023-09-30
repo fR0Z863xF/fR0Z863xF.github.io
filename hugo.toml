@@ -7,6 +7,7 @@ defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = true
 hasCJKLanguage = true
 
+
 [languages]
     [languages.en]
         languageName = "English"
@@ -18,3 +19,24 @@ hasCJKLanguage = true
         contentDir = "content/"
         [languages.zh-cn.params]
             NFD = true 
+
+[params.busuanzi]
+    enable = true
+    # 是否开启全站独立访客数
+    site_uv = true
+    # 全站独立访客数前的图标或提示语
+    site_uv_pre = '<i class="fa fa-user"></i>' 
+    # 全站独立访客数后的图标或提示语
+    site_uv_post = ''
+    # 是否开启全站浏览量
+    site_pv = true
+    # 全站浏览量前的图标或提示语
+    site_pv_pre = '<a class="fa fa-eye" style="color:#49b849">博客总浏览量</a>'
+    # 全站浏览量后的图标或提示语
+    site_pv_post = '次'
+    # 是否开启单页浏览量
+    page_pv = true
+    # 单页浏览量前的图标或提示语
+    page_pv_pre = '<a class="far fa-eye fa-fw" style="color:#49b849">本文总浏览量</a>'
+    # 单页浏览量后的图标或提示语
+    page_pv_post = '次'
