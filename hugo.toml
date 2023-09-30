@@ -2,3 +2,18 @@ baseURL = 'https://blog.hicom.icu/'
 languageCode = 'en-us'
 title = 'Hi Community'
 theme = 'hugo-theme-stack-3.20.0'
+
+defaultContentLanguage = "zh-cn"
+defaultContentLanguageInSubdir = true
+
+[languages]
+    [languages.en]
+        languageName = "English"
+        contentDir = "content/"
+        [languages.en.params]
+            NFD = true 
+    [languages.zh-cn]
+        languageName = "简体中文"
+        contentDir = "content/"
+        [languages.zh-cn.params]
+            NFD = true 

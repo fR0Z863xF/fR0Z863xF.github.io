@@ -3,8 +3,9 @@ module:
         extended: true
         min: "0.87.0"
 
-DefaultContentLanguage: en
+DefaultContentLanguage: zh-cn
 hasCJKLanguage: true
+isCJKLanguage: true
 
 languages:
     en:
@@ -13,12 +14,12 @@ languages:
         weight: 1
         params:
             description: "HiCom's blog."
-    # zh-cn:
-    #     languageName: "简体中文"
-    #    title: "Hi Community"
-    #    weight: 2
-    #    params:
-    #        description: "HiCom的个人博客"
+    zh-cn:
+        languageName: "简体中文"
+        title: "Hi Community"
+        weight: 2
+        params:
+            description: "HiCom的个人博客"
 
 params:
     description: "HiCom's blog."
