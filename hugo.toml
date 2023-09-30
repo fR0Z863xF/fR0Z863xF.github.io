@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://blog.hicom.icu/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Hi Community'
 theme = 'hugo-theme-stack-3.20.0'
