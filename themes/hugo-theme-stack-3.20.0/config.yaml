@@ -3,7 +3,11 @@ module:
         extended: true
         min: "0.87.0"
 
+DefaultContentLanguage: zh-cn
+hasCJKLanguage: true
+
 params:
+    description: "HiCom's blog."
     mainSections:
         - post
     featuredImageField: image
@@ -16,11 +20,11 @@ params:
 
     dateFormat:
         published: Jan 02, 2006
-        lastUpdated: Jan 02, 2006 15:04 MST
+        lastUpdated: Jan 02, 2006 15:04 CST
 
     sidebar:
         compact: false
-        emoji:
+        emoji:🔴
         subtitle:
         avatar:
             enabled: true
@@ -28,7 +32,7 @@ params:
             src: img/icon1.webp
 
     article:
-        math: false
+        math: true
         toc: true
         readingTime: true
         license:
@@ -37,7 +41,7 @@ params:
 
     comments:
         enabled: false
-        provider: disqus
+        provider: gitalk
 
         disqusjs:
             shortname:
@@ -100,8 +104,8 @@ params:
             lang:
 
         gitalk:
-            owner:
-            admin:
+            owner:fR0Z863xF
+            admin:fR0Z863xF
             repo:
             clientID:
             clientSecret:
@@ -111,8 +115,24 @@ params:
             id:
 
     widgets:
-        homepage: []
-        page: []
+        # homepage: []
+        # page: []
+        homepage:
+            - type: search
+            - type: archives
+              params:
+                  limit: 5
+            - type: categories
+              params:
+                  limit: 10
+            - type: tag-cloud
+              params:
+                  limit: 10
+        page:
+            - type: toc
+            - type: tag-cloud
+              params:
+                  limit: 5
 
     opengraph:
         twitter:
@@ -134,9 +154,22 @@ params:
 
         # Available values: auto, light, dark
         default: auto
-
+        
+    i18n:
+        DefaultContentLanguage: zh-cn
+    
     imageProcessing:
         cover:
             enabled: true
         content:
             enabled: true
+
+menu:
+    main: []
+    
+    social:
+        - identifier: github
+          name: GitHub
+          url: https://github.com/fR0Z863xF/
+          params:
+              icon: brand-github
