@@ -2,7 +2,7 @@ baseURL = 'https://blog.hicom.icu/'
 languageCode = 'en-us'
 title = 'Hi Community'
 theme = 'hugo-theme-stack-3.20.0'
-
+timeZone = "Asia/Shanghai"
 defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = true
 hasCJKLanguage = true
