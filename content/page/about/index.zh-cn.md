@@ -1,5 +1,9 @@
 ---
 title: 关于
+date: '2023-09-30'
+aliases:
+  - about-us
+  - contact
 menu:
     main: 
         weight: -90
@@ -7,4 +11,4 @@ menu:
             icon: user
 ---
 
-This is a test page for i18n support.
+这里是HiCom的博客。

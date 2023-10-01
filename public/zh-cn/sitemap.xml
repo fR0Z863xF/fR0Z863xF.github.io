@@ -54,21 +54,8 @@
                 href="https://blog.hicom.icu/zh-cn/post/hello_world/hello_world/"
                 />
   </url><url>
-    <loc>https://blog.hicom.icu/zh-cn/page/archives/</loc>
-    <lastmod>2019-05-28T00:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.hicom.icu/en/page/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://blog.hicom.icu/zh-cn/page/archives/"
-                />
-  </url><url>
     <loc>https://blog.hicom.icu/zh-cn/page/</loc>
-    <lastmod>2019-05-28T00:00:00+08:00</lastmod>
+    <lastmod>2023-09-30T00:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -78,6 +65,32 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://blog.hicom.icu/zh-cn/page/"
+                />
+  </url><url>
+    <loc>https://blog.hicom.icu/zh-cn/page/about/</loc>
+    <lastmod>2023-09-30T00:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.hicom.icu/en/page/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://blog.hicom.icu/zh-cn/page/about/"
+                />
+  </url><url>
+    <loc>https://blog.hicom.icu/zh-cn/page/archives/</loc>
+    <lastmod>2023-09-30T00:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.hicom.icu/en/page/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://blog.hicom.icu/zh-cn/page/archives/"
                 />
   </url><url>
     <loc>https://blog.hicom.icu/zh-cn/categories/</loc>
@@ -90,6 +103,18 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://blog.hicom.icu/zh-cn/categories/"
+                />
+  </url><url>
+    <loc>https://blog.hicom.icu/zh-cn/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.hicom.icu/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://blog.hicom.icu/zh-cn/tags/"
                 />
   </url><url>
     <loc>https://blog.hicom.icu/zh-cn/page/links/</loc>
@@ -114,30 +139,6 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://blog.hicom.icu/zh-cn/page/search/"
-                />
-  </url><url>
-    <loc>https://blog.hicom.icu/zh-cn/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.hicom.icu/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://blog.hicom.icu/zh-cn/tags/"
-                />
-  </url><url>
-    <loc>https://blog.hicom.icu/zh-cn/page/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.hicom.icu/en/page/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://blog.hicom.icu/zh-cn/page/about/"
                 />
   </url>
 </urlset>
