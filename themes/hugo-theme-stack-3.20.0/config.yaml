@@ -27,7 +27,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:
+    favicon: "/ico/favicon.ico"
 
     footer:
         since:
@@ -44,7 +44,7 @@ params:
         avatar:
             enabled: true
             local: true
-            src: img/icon1.webp
+            src: img/icon1.png
 
     article:
         math: true
@@ -180,9 +180,9 @@ params:
 menu:
     main: []
     
-    social:
-        - identifier: github
-          name: GitHub
-          url: https://github.com/fR0Z863xF/
-          params:
-              icon: brand-github
+    # social:
+    #    - identifier: github
+    #      name: GitHub
+    #      url: https://github.com/fR0Z863xF/
+    #      params:
+    #          icon: brand-github

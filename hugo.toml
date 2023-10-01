@@ -7,7 +7,6 @@ defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = true
 hasCJKLanguage = true
 
-
 [languages]
     [languages.en]
         languageName = "English"
