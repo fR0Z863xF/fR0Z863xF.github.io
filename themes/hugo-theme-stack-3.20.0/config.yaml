@@ -186,3 +186,23 @@ menu:
     #      url: https://github.com/fR0Z863xF/
     #      params:
     #          icon: brand-github
+   
+markup:
+    goldmark:
+        renderer:
+            ## Set to true if you have HTML content inside Markdown
+            unsafe: true
+    tableOfContents:
+        endLevel: 4
+        ordered: true
+        startLevel: 2
+    highlight:
+        hl_Lines: ""
+        noClasses: false
+        codeFences: true
+        guessSyntax: true
+        lineNoStart: 1
+        lineNos: true
+        lineNumbersInTable: true
+        tabWidth: 4
+        style: onedark
