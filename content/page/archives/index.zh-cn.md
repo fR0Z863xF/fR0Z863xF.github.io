@@ -1,7 +1,7 @@
 ---
 title: "归档"
 date: 2023-09-30
-layout: "归档"
+layout: "archives"
 slug: "archives"
 menu:
     main:

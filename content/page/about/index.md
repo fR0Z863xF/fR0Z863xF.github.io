@@ -1,6 +1,6 @@
 ---
 title: About
-description: blank
+description: 
 date: '2023-09-30'
 aliases:
   - about-us
@@ -13,3 +13,4 @@ menu:
         params:
             icon: user
 ---
+This is HiCom's blog.
