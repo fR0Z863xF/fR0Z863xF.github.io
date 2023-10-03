@@ -190,7 +190,6 @@ menu:
 markup:
     goldmark:
         renderer:
-            ## Set to true if you have HTML content inside Markdown
             unsafe: true
     tableOfContents:
         endLevel: 4
@@ -202,7 +201,7 @@ markup:
         codeFences: true
         guessSyntax: true
         lineNoStart: 1
-        lineNos: true
+        lineNos: table
         lineNumbersInTable: true
         tabWidth: 4
-        style: onedark
+        style: catppuccin-mocha

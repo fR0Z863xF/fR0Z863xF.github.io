@@ -19,6 +19,26 @@ hasCJKLanguage = true
         [languages.zh-cn.params]
             NFD = true 
 
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.tableOfContents]
+endLevel = 4
+ordered = true
+startLevel = 2
+
+[markup.highlight]
+hl_Lines = ""
+noClasses = false
+codeFences = true
+guessSyntax = true
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+tabWidth = 4
+style = "catppuccin-mocha"
+
+
 [params.busuanzi]
     enable = true
     # 是否开启全站独立访客数
